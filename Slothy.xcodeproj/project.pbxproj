@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAC23B1228693E7F00D3A805 /* Slothy.docc in Sources */ = {isa = PBXBuildFile; fileRef = CAC23B1128693E7F00D3A805 /* Slothy.docc */; };
+		CAC23B1328693E7F00D3A805 /* Slothy.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC23B1028693E7F00D3A805 /* Slothy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAC23B1B28693EBC00D3A805 /* SLOSound.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC23B1928693EBC00D3A805 /* SLOSound.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAC23B1C28693EBC00D3A805 /* SLOSound.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC23B1A28693EBC00D3A805 /* SLOSound.m */; };
+		CAC23B23286940B300D3A805 /* SLOSoundPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC23B21286940B300D3A805 /* SLOSoundPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAC23B24286940B300D3A805 /* SLOSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC23B22286940B300D3A805 /* SLOSoundPlayer.m */; };
+		CAC23B28286941AA00D3A805 /* SlothyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC23B27286941AA00D3A805 /* SlothyApp.swift */; };
+		CAC23B2A286941F800D3A805 /* SlothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC23B29286941F800D3A805 /* SlothView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAC23B0D28693E7F00D3A805 /* Slothy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Slothy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC23B1028693E7F00D3A805 /* Slothy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slothy.h; sourceTree = "<group>"; };
+		CAC23B1128693E7F00D3A805 /* Slothy.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Slothy.docc; sourceTree = "<group>"; };
+		CAC23B1928693EBC00D3A805 /* SLOSound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLOSound.h; sourceTree = "<group>"; };
+		CAC23B1A28693EBC00D3A805 /* SLOSound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLOSound.m; sourceTree = "<group>"; };
+		CAC23B21286940B300D3A805 /* SLOSoundPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLOSoundPlayer.h; sourceTree = "<group>"; };
+		CAC23B22286940B300D3A805 /* SLOSoundPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLOSoundPlayer.m; sourceTree = "<group>"; };
+		CAC23B27286941AA00D3A805 /* SlothyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlothyApp.swift; sourceTree = "<group>"; };
+		CAC23B29286941F800D3A805 /* SlothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlothView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAC23B0A28693E7F00D3A805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAC23B0328693E7F00D3A805 = {
+			isa = PBXGroup;
+			children = (
+				CAC23B0F28693E7F00D3A805 /* Slothy */,
+				CAC23B0E28693E7F00D3A805 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAC23B0E28693E7F00D3A805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAC23B0D28693E7F00D3A805 /* Slothy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAC23B0F28693E7F00D3A805 /* Slothy */ = {
+			isa = PBXGroup;
+			children = (
+				CAC23B1028693E7F00D3A805 /* Slothy.h */,
+				CAC23B1128693E7F00D3A805 /* Slothy.docc */,
+				CAC23B1928693EBC00D3A805 /* SLOSound.h */,
+				CAC23B1A28693EBC00D3A805 /* SLOSound.m */,
+				CAC23B21286940B300D3A805 /* SLOSoundPlayer.h */,
+				CAC23B22286940B300D3A805 /* SLOSoundPlayer.m */,
+				CAC23B27286941AA00D3A805 /* SlothyApp.swift */,
+				CAC23B29286941F800D3A805 /* SlothView.swift */,
+			);
+			path = Slothy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CAC23B0828693E7F00D3A805 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC23B1328693E7F00D3A805 /* Slothy.h in Headers */,
+				CAC23B1B28693EBC00D3A805 /* SLOSound.h in Headers */,
+				CAC23B23286940B300D3A805 /* SLOSoundPlayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CAC23B0C28693E7F00D3A805 /* Slothy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC23B1628693E7F00D3A805 /* Build configuration list for PBXNativeTarget "Slothy" */;
+			buildPhases = (
+				CAC23B0828693E7F00D3A805 /* Headers */,
+				CAC23B0928693E7F00D3A805 /* Sources */,
+				CAC23B0A28693E7F00D3A805 /* Frameworks */,
+				CAC23B0B28693E7F00D3A805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slothy;
+			productName = Slothy;
+			productReference = CAC23B0D28693E7F00D3A805 /* Slothy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAC23B0428693E7F00D3A805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CAC23B0C28693E7F00D3A805 = {
+						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
+					};
+				};
+			};
+			buildConfigurationList = CAC23B0728693E7F00D3A805 /* Build configuration list for PBXProject "Slothy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAC23B0328693E7F00D3A805;
+			productRefGroup = CAC23B0E28693E7F00D3A805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAC23B0C28693E7F00D3A805 /* Slothy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAC23B0B28693E7F00D3A805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAC23B0928693E7F00D3A805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC23B24286940B300D3A805 /* SLOSoundPlayer.m in Sources */,
+				CAC23B1C28693EBC00D3A805 /* SLOSound.m in Sources */,
+				CAC23B2A286941F800D3A805 /* SlothView.swift in Sources */,
+				CAC23B28286941AA00D3A805 /* SlothyApp.swift in Sources */,
+				CAC23B1228693E7F00D3A805 /* Slothy.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAC23B1428693E7F00D3A805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAC23B1528693E7F00D3A805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAC23B1728693E7F00D3A805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asdfasdf.Slothy;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAC23B1828693E7F00D3A805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asdfasdf.Slothy;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAC23B0728693E7F00D3A805 /* Build configuration list for PBXProject "Slothy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC23B1428693E7F00D3A805 /* Debug */,
+				CAC23B1528693E7F00D3A805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC23B1628693E7F00D3A805 /* Build configuration list for PBXNativeTarget "Slothy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC23B1728693E7F00D3A805 /* Debug */,
+				CAC23B1828693E7F00D3A805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAC23B0428693E7F00D3A805 /* Project object */;
+}
